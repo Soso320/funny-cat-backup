@@ -446,3 +446,9 @@ Usage: `%sqlsearch hi` (append % to the start and end of the search term for wor
 Gives you a yuri image
 
 Usage: `%yuri`
+
+# anchovy
+
+Gives you an image of anchovy
+
+Usage: `%anchovy`
