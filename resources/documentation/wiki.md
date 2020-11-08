@@ -4,7 +4,7 @@
 
 # I PLAN ON UPDATING IT SOON
 
-# IN THE MEANTIME, USE [THIS](https://gitlab.com/SosoM1k0r31z31/funny-cat/-/blob/master/resources/documentation/commands.md)
+# IN THE MEANTIME, USE [THIS](https://bitbucket.org/SosoM1k0r31z31/funny-cat/src/master/resources/documentation/commands.md)
 
 
 
@@ -88,7 +88,7 @@ Usage: `%dict vehicle`
 
 # femboyrate      
 
-Rates how much of a femboy someone is 
+Rates how much of a femboy someone is
 
 Usage: `%femboyrate @user`
 
@@ -321,7 +321,7 @@ Searches for a word in the urban dictionary
 Usage: `%urban man`
 
 
-# webhooktransmit 
+# webhooktransmit
 
 Sends a webhook (debug command)
 
@@ -341,7 +341,7 @@ Searches for an anime using tracemoe with a screenshot
 
 Usage: `%whatanime [attachment]`
 
-     
+
 # wordcloud       
 
 Generates a wordcloud
@@ -363,7 +363,7 @@ Usage: `%duckduckgo python 1`
 
 # kiss, hug, and poke
 
-Reacts with a hug, kiss or poke gif. User argument required 
+Reacts with a hug, kiss or poke gif. User argument required
 
 Usages:
 
