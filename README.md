@@ -1,29 +1,17 @@
-# README #
+# Funny cat
 
-This README would normally document whatever steps are necessary to get your application up and running.
+very funny
 
-### What is this repository for? ###
+See bot.py for dependencies (imports)
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+# To do list
 
-### How do I get set up? ###
++ Add tags ✅
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
++ Migrate copypasta command to Sqlite instead of plain text ✅
 
-### Contribution guidelines ###
++ Make the tag code not god awful ❌
 
-* Writing tests
-* Code review
-* Other guidelines
++ Fix the damn screenshot command ❌
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
++ Get rid of nmap (rm -rf / risk) ✅

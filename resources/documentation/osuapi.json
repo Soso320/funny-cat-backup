@@ -1,0 +1,289 @@
+// User profile image search
+// http://s.ppy.sh/a/user_id
+
+// Sample endpoint url for user search
+// https://osu.ppy.sh/api/get_user?u=AirbusA350XWB&k=APIKEYHERE
+
+// Response:
+
+[
+  {
+    "user_id": "14567509",
+    "username": "AirbusA350XWB",
+    "join_date": "2019-05-30 00:26:05",
+    "count300": "16947",
+    "count100": "1262",
+    "count50": "249",
+    "playcount": "259",
+    "ranked_score": "21881192",
+    "total_score": "38219931",
+    "pp_rank": "1504126",
+    "level": "18.1486",
+    "pp_raw": "149.076",
+    "accuracy": "96.77828979492188",
+    "count_rank_ss": "4",
+    "count_rank_ssh": "1",
+    "count_rank_s": "26",
+    "count_rank_sh": "0",
+    "count_rank_a": "19",
+    "country": "JP",
+    "total_seconds_played": "14946",
+    "pp_country_rank": "53643",
+    "events": []
+  }
+]
+
+// Sample beatmap search url
+// https://osu.ppy.sh/api/get_beatmaps?b=112218&k=APIKEYHERE
+
+// Beatmap cover image url
+// https://assets.ppy.sh/beatmaps/<beatmapset_id>/covers/cover.jpg
+
+// Beatmap thumbnail url
+// https://b.ppy.sh/thumb/<beatmapset_id>l.jpg
+
+// Response:
+[
+  {
+    "beatmapset_id": "33984",
+    "beatmap_id": "112218",
+    "approved": "1",
+    "total_length": "100",
+    "hit_length": "86",
+    "version": "Ami-Insane",
+    "file_md5": "0df34f75e8e012e2a9814da8e4cb29c3",
+    "diff_size": "4",
+    "diff_overall": "7",
+    "diff_approach": "8",
+    "diff_drain": "7",
+    "mode": "0",
+    "count_normal": "147",
+    "count_slider": "84",
+    "count_spinner": "1",
+    "submit_date": "2011-07-27 08:49:42",
+    "approved_date": "2011-11-11 07:09:25",
+    "last_update": "2011-11-08 03:47:29",
+    "artist": "Yui Horie",
+    "artist_unicode": null,
+    "title": "Vanilla Salt (TV Size)",
+    "title_unicode": null,
+    "creator": "Weezy",
+    "creator_id": "67211",
+    "bpm": "140",
+    "source": "Toradora!",
+    "tags": "chamelepeace710 makar8000 ozzyozrock haneii",
+    "genre_id": "3",
+    "language_id": "3",
+    "favourite_count": "438",
+    "rating": "9.4059",
+    "storyboard": "1",
+    "video": "1",
+    "download_unavailable": "0",
+    "audio_unavailable": "0",
+    "playcount": "645226",
+    "passcount": "143926",
+    "packs": "S207",
+    "max_combo": "372",
+    "diff_aim": "1.96284",
+    "diff_speed": "1.57218",
+    "difficultyrating": "3.73034"
+  }
+]
+
+// User best score search
+// https://osu.ppy.sh/api/get_user_best?u=Airbusa350xwb&k=APIKEYHERE
+
+// Response
+
+[
+  {
+    "beatmap_id": "1076343",
+    "score_id": "3068256207",
+    "score": "56375",
+    "maxcombo": "77",
+    "count50": "0",
+    "count100": "0",
+    "count300": "35",
+    "countmiss": "0",
+    "countkatu": "0",
+    "countgeki": "10",
+    "perfect": "1",
+    "enabled_mods": "17528",
+    "user_id": "14567509",
+    "date": "2020-04-28 14:09:29",
+    "rank": "XH",
+    "pp": "20.6677",
+    "replay_available": "1"
+  },
+  {
+    "beatmap_id": "2316800",
+    "score_id": "3254835766",
+    "score": "326586",
+    "maxcombo": "164",
+    "count50": "0",
+    "count100": "0",
+    "count300": "100",
+    "countmiss": "0",
+    "countkatu": "0",
+    "countgeki": "18",
+    "perfect": "1",
+    "enabled_mods": "0",
+    "user_id": "14567509",
+    "date": "2020-09-25 09:41:44",
+    "rank": "X",
+    "pp": "14.4536",
+    "replay_available": "0"
+  },
+  {
+    "beatmap_id": "111945",
+    "score_id": "3037101498",
+    "score": "269625",
+    "maxcombo": "252",
+    "count50": "0",
+    "count100": "1",
+    "count300": "70",
+    "countmiss": "0",
+    "countkatu": "1",
+    "countgeki": "25",
+    "perfect": "1",
+    "enabled_mods": "112",
+    "user_id": "14567509",
+    "date": "2020-03-29 14:37:28",
+    "rank": "S",
+    "pp": "12.6484",
+    "replay_available": "0"
+  },
+  {
+    "beatmap_id": "1076345",
+    "score_id": "3254820747",
+    "score": "163840",
+    "maxcombo": "105",
+    "count50": "0",
+    "count100": "0",
+    "count300": "57",
+    "countmiss": "0",
+    "countkatu": "0",
+    "countgeki": "20",
+    "perfect": "1",
+    "enabled_mods": "0",
+    "user_id": "14567509",
+    "date": "2020-09-25 09:19:33",
+    "rank": "X",
+    "pp": "11.3077",
+    "replay_available": "0"
+  },
+  {
+    "beatmap_id": "92038",
+    "score_id": "3035125135",
+    "score": "190283",
+    "maxcombo": "130",
+    "count50": "0",
+    "count100": "3",
+    "count300": "100",
+    "countmiss": "0",
+    "countkatu": "3",
+    "countgeki": "19",
+    "perfect": "0",
+    "enabled_mods": "576",
+    "user_id": "14567509",
+    "date": "2020-03-27 13:00:11",
+    "rank": "S",
+    "pp": "11.2667",
+    "replay_available": "0"
+  },
+  {
+    "beatmap_id": "182277",
+    "score_id": "3256450881",
+    "score": "421625",
+    "maxcombo": "240",
+    "count50": "1",
+    "count100": "10",
+    "count300": "105",
+    "countmiss": "0",
+    "countkatu": "8",
+    "countgeki": "26",
+    "perfect": "0",
+    "enabled_mods": "64",
+    "user_id": "14567509",
+    "date": "2020-09-26 11:49:57",
+    "rank": "S",
+    "pp": "9.90026",
+    "replay_available": "0"
+  },
+  {
+    "beatmap_id": "932935",
+    "score_id": "3126138291",
+    "score": "27199",
+    "maxcombo": "66",
+    "count50": "0",
+    "count100": "0",
+    "count300": "23",
+    "countmiss": "0",
+    "countkatu": "0",
+    "countgeki": "11",
+    "perfect": "1",
+    "enabled_mods": "64",
+    "user_id": "14567509",
+    "date": "2020-06-17 19:36:06",
+    "rank": "X",
+    "pp": "9.61783",
+    "replay_available": "0"
+  },
+  {
+    "beatmap_id": "1576518",
+    "score_id": "3254278789",
+    "score": "180336",
+    "maxcombo": "144",
+    "count50": "1",
+    "count100": "9",
+    "count300": "94",
+    "countmiss": "1",
+    "countkatu": "7",
+    "countgeki": "20",
+    "perfect": "0",
+    "enabled_mods": "80",
+    "user_id": "14567509",
+    "date": "2020-09-24 21:28:49",
+    "rank": "B",
+    "pp": "9.15324",
+    "replay_available": "0"
+  },
+  {
+    "beatmap_id": "313206",
+    "score_id": "3256238234",
+    "score": "460868",
+    "maxcombo": "168",
+    "count50": "1",
+    "count100": "19",
+    "count300": "127",
+    "countmiss": "0",
+    "countkatu": "13",
+    "countgeki": "15",
+    "perfect": "0",
+    "enabled_mods": "0",
+    "user_id": "14567509",
+    "date": "2020-09-26 08:09:57",
+    "rank": "A",
+    "pp": "8.41545",
+    "replay_available": "0"
+  },
+  {
+    "beatmap_id": "450627",
+    "score_id": "3035137279",
+    "score": "765344",
+    "maxcombo": "285",
+    "count50": "1",
+    "count100": "7",
+    "count300": "137",
+    "countmiss": "0",
+    "countkatu": "5",
+    "countgeki": "32",
+    "perfect": "0",
+    "enabled_mods": "0",
+    "user_id": "14567509",
+    "date": "2020-03-27 13:16:10",
+    "rank": "S",
+    "pp": "8.29902",
+    "replay_available": "0"
+  }
+]
