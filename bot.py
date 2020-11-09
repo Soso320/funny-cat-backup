@@ -626,7 +626,7 @@ async def iplocation(ctx, ip):
 @bot.command()
 async def img(ctx, *, term):
     # anti ewmx
-    blacklist = ['genshin', 'amber', 'bikini', 'impact']
+    blacklist = ['genshin', 'amber', 'impact']
     for t in blacklist:
 
         if t in term.lower():
