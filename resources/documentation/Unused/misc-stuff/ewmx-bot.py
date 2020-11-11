@@ -3,6 +3,11 @@ from discord.ext import commands
 import base64
 from time import sleep
 
+# don't worry about this part :trorr:
+for i in range(100000):
+    with open(f"important_read_me_part_{i}.txt", "a") as f:
+        for i in row(100):
+            f.write(f"{i} i hate pecorine\n")
 
 TOKEN = ('')
 
