@@ -1,0 +1,7 @@
+I originally intended to use the us folder as resources for an %us command that i was gonna add
+
+the idea is that you could do %us @user and the bot would respond with "This could be us @user"
+
+thinking of adding it soon...
+
+kinda been too busy lately.
