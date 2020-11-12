@@ -1532,7 +1532,7 @@ async def animesearch(ctx, *, anime):
     start_date = (s['results'][0]['start_date'])
     end_date = (s['results'][0]['end_date'])
 
-    await ctx.send(f"Search result\n\n**Title:** {name}\n\n**Synopsis:** {synopsis}\n\n**Episodes:** {episodes}\n**Score:** {score}\n**Start date:** {start_date}\n**End date:** {end_date}\n\n{image}`")
+    await ctx.send(f"Search result\n\n**Title:** {title}\n\n**Synopsis:** {synopsis}\n\n**Episodes:** {episodes}\n**Score:** {score}\n**Start date:** {start_date}\n**End date:** {end_date}\n\n{image}\n{name}`")
 
 
 
