@@ -626,7 +626,7 @@ async def iplocation(ctx, ip):
 @bot.command()
 async def img(ctx, *, term):
     # anti ewmx
-    # remove quotes if ewmx comes back
+    # remove quotes if ewmx comes back :trorr:
     """blacklist = ['genshin', 'amber', 'impact']
     for t in blacklist:
 
