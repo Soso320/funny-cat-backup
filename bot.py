@@ -1502,7 +1502,7 @@ async def anchovy(ctx):
 
 @bot.command()
 async def character(ctx, *, char):
-    url = "https://api.jikan.moe/v3/search/character?q=mako-reizei&page=1"
+    url = f"https://api.jikan.moe/v3/search/character?q={char}&page=1"
     headers = {'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0'}
 
     r = requests.get(url, headers=headers)
@@ -1512,6 +1512,27 @@ async def character(ctx, *, char):
     image = (s['results'][0]['image_url'])
 
     await ctx.send(f"Search result\n{image}\n`{name}`")
+
+@bot.command()
+async def animesearch(ctx, *, anime):
+
+    url = f"https://api.jikan.moe/v3/search/character?q={char}&page=1"
+    headers = {'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0'}
+
+    r = requests.get(url, headers=headers)
+    s = r.json()
+
+    name = (s['results'][0]['url'])
+    image = (s['results'][0]['image_url'])
+    title = (s['results'][0]['title'])
+    synopsis = (s['results'][0]['synopsis'])
+    episodes = (s['results'][0]['episodes'])
+    score = (s['results'][0]['score'])
+    start_date = (s['results'][0]['start_date'])
+    end_date = (s['results'][0]['end_date'])
+
+    await ctx.send(f"Search result\n\n**Title:** {name}\n\n**Synopsis:** {synopsis}\n\n**Episodes:** {episodes}\n**Score:** {score}\n**Start date:** {start_date}\n**End date:** {end_date}\n\n{image}`")
+
 
 
 bot.run(TOKEN)
