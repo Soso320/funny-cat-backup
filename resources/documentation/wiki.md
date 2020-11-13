@@ -1,14 +1,3 @@
-# WARNING:
-
-# THIS WIKI IS NOT UP TO DATE
-
-# I PLAN ON UPDATING IT SOON
-
-# IN THE MEANTIME, USE [THIS](https://bitbucket.org/SosoM1k0r31z31/funny-cat/src/master/resources/documentation/commands.md)
-
-
-
-
 # accountage
 
 Shows how old your accounts is
