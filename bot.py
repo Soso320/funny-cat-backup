@@ -41,7 +41,7 @@ bot.remove_command('help')
 
 @bot.command()
 async def help(ctx):
-    msg = (f"{ctx.author.mention} https://bitbucket.org/SosoM1k0r31z31/funny-cat/wiki/commands\n\nNo JS?\nhttps://sosom1k0r31z31.bitbucket.io/")
+    msg = (f"{ctx.author.mention} https://gitlab.com/SosoM1k0r31z31/funny-cat/-/wikis/commands")
     await ctx.send(msg)
 
 
@@ -1489,7 +1489,7 @@ async def ruined(ctx, avamember : discord.User=None):
 
 
 @bot.command()
-async def character(ctx, *, char):
+async def charactersearch(ctx, *, char):
     url = f"https://api.jikan.moe/v3/search/character?q={char}&page=1"
     headers = {'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0'}
 
@@ -1565,6 +1565,8 @@ async def character(ctx, char):
         await ctx.send(charlink("saori"))
     elif char.lower() == "erina":
         await ctx.send(charlink("erina"))
+    elif char.lower() == "satania":
+        await ctx.send(charlink("satania"))
 
     elif char.lower() in "saren":
         await ctx.send("An error occured, Please try again.")
