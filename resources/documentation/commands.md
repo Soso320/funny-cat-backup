@@ -1,5 +1,3 @@
-For detailed help, See https://gitlab.com/SosoM1k0r31z31/funny-cat/-/wikis/commands
-
 ​No Category:
   accountage      
   activity        
