@@ -1,15 +1,20 @@
-No Category:
+For detailed help, See https://gitlab.com/SosoM1k0r31z31/funny-cat/-/wikis/commands
 
-  accountage     
+​No Category:
+  accountage      
   activity        
   aiwaifu         
   anchovy         
+  animesearch     
   appendpasta     
   ask             
   avatar          
   bmi             
   changeavatar    
+  character       
+  charactersearch 
   convert         
+  define          
   delete          
   deletepasta     
   dict            
@@ -65,7 +70,7 @@ No Category:
   typing          
   urban           
   urlcheck        
-  webhooktransmit
+  webhooktransmit 
   weightconvert   
   whatanime       
   wordcloud       
