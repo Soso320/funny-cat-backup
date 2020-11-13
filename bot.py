@@ -1567,14 +1567,16 @@ async def character(ctx, char):
         await ctx.send(charlink("erina"))
     elif char.lower() == "satania":
         await ctx.send(charlink("satania"))
-
+    elif char.lower() == "mankanshoku":
+        await ctx.send(charlink("mankanshoku"))
+        
     elif char.lower() in "saren":
         await ctx.send("An error occured, Please try again.")
     elif char.lower() in "pecorine":
         await ctx.send("An error occured, Please try again.")
 
     elif char.lower() == "list":
-        await ctx.send("```List of available characters\n\nmako\nanchovy\nyuri\naqua\nmio\nmiho\nhana\nsaori\nerina\nsaren\npecorine```")
+        await ctx.send("```List of available characters\n\nmako\nanchovy\nyuri\naqua\nmio\nmiho\nhana\nsaori\nerina\nsaren\npecorine\nsatania\nmankanshoku```")
     else:
         await ctx.send("```unknown character\n\nsee %character list for a list of characters```")
 
