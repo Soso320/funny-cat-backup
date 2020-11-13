@@ -1564,5 +1564,8 @@ async def character(ctx, char):
     elif char.lower() == "saori":
         await ctx.send(charlink("saori"))
 
+    elif char.lower() == "list":
+        await ctx.send("```List of available characters\n\nmako\nanchovy\nyuri\naqua\nmio\nmiho\nhana\nsaori```")
+
 
 bot.run(TOKEN)
