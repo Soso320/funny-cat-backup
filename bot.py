@@ -1537,7 +1537,7 @@ async def animesearch(ctx, *, anime):
 @bot.command()
 async def define(ctx, *, term):
 
-    url = f"https://api.dictionaryapi.dev/api/v2/entries/en/bruh"
+    url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{term}"
     headers = {'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0'}
 
     r = requests.get(url, headers=headers)
