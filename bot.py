@@ -1552,5 +1552,11 @@ async def define(ctx, *, term):
     await ctx.send(msg)
 
 
+@bot.command()
+async def mako(ctx):
+    lines = open("resources/links-db/mako.txt").read().splitlines()
+    img = secrets.choice(lines)
+    await ctx.send(f"{img}")
+
 
 bot.run(TOKEN)
