@@ -1549,6 +1549,8 @@ async def define(ctx, *, term):
 
     msg = f"**Word:** `{name} {pronouncation}`\n\n**Definition:** ```{definition}```"
 
+    await ctx.send(msg)
+
 
 
 bot.run(TOKEN)
