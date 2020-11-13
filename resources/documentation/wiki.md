@@ -1,14 +1,3 @@
-# WARNING:
-
-# THIS WIKI IS NOT UP TO DATE
-
-# I PLAN ON UPDATING IT SOON
-
-# IN THE MEANTIME, USE [THIS](https://bitbucket.org/SosoM1k0r31z31/funny-cat/src/master/resources/documentation/commands.md)
-
-
-
-
 # accountage
 
 Shows how old your accounts is
@@ -452,3 +441,33 @@ Usage: `%yuri`
 Gives you an image of anchovy
 
 Usage: `%anchovy`
+
+# ruined
+
+React with ruined
+
+Usage: `%ruined @someone`
+
+# charactersearch
+
+Searches for an anime character
+
+Usage: `%character mako`
+
+# animesearch
+
+Searches for an anime from myanimelist
+
+Usage: `%anime toradora`
+
+# character
+
+Returns a random image of a character
+
+Usage: `%character list`
+
+# define
+
+Defines a word
+
+Usage: `%define keyboard`
