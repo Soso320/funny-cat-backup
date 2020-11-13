@@ -41,7 +41,7 @@ bot.remove_command('help')
 
 @bot.command()
 async def help(ctx):
-    msg = (f"{ctx.author.mention} https://gitlab.com/SosoM1k0r31z31/funny-cat/-/wikis/commands")
+    msg = (f"{ctx.author.mention} https://bitbucket.org/SosoM1k0r31z31/funny-cat/wiki/commands\n\nNo JS?\nhttps://sosom1k0r31z31.bitbucket.io/")
     await ctx.send(msg)
 
 
