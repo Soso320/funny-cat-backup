@@ -1484,21 +1484,9 @@ async def sqlsearch(ctx, *, term): # Used for the memecord message Database
 
 
 @bot.command()
-async def yuri(ctx):
-    lines = open("yurilist.txt").read().splitlines()
-    yuri = secrets.choice(lines)
-    await ctx.send(f"{yuri}")
-
-
-@bot.command()
 async def ruined(ctx, avamember : discord.User=None):
     await ctx.send(f"{avamember.mention} https://cdn.discordapp.com/attachments/769023126507356163/769630011770142740/fedora_2020_10_22__11_50_53.png")
 
-@bot.command()
-async def anchovy(ctx):
-    lines = open("resources/anchovy.txt").read().splitlines()
-    anchovy = secrets.choice(lines)
-    await ctx.send(f"{anchovy}")
 
 @bot.command()
 async def character(ctx, *, char):
@@ -1553,10 +1541,28 @@ async def define(ctx, *, term):
 
 
 @bot.command()
-async def mako(ctx):
-    lines = open("resources/links-db/mako.txt").read().splitlines()
-    img = secrets.choice(lines)
-    await ctx.send(f"{img}")
+async def character(ctx, char):
+    def charlink(character):
+        lines = open(f"resources/links-db/{char}.txt").read().splitlines()
+        img = secrets.choice(lines)
+        return img
+
+    if char.lower() == "mako":
+        await ctx.send(charlink("mako"))
+    elif char.lower() == "anchovy":
+        await ctx.send(charlink("anchovy"))
+    elif char.lower() == "yuri":
+        await ctx.send(charlink("yuri"))
+    elif char.lower() == "aqua":
+        await ctx.send(charlink("aqua"))
+    elif char.lower() == "mio":
+        await ctx.send(charlink("mio"))
+    elif char.lower() == "miho":
+        await ctx.send(charlink("miho"))
+    elif char.lower() == "hana":
+        await ctx.send(charlink("hana"))
+    elif char.lower() == "saori":
+        await ctx.send(charlink("saori"))
 
 
 bot.run(TOKEN)
