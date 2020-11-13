@@ -626,13 +626,12 @@ async def iplocation(ctx, ip):
 @bot.command()
 async def img(ctx, *, term):
     # anti ewmx
-    # remove quotes if ewmx comes back :trorr:
-    """blacklist = ['genshin', 'amber', 'impact']
+    blacklist = ['genshin', 'amber', 'impact']
     for t in blacklist:
 
         if t in term.lower():
             await ctx.send("我真的很喜欢Genshin Impact 这是一个因喜剧效果而产生的模因。我不支持 Glorious Leader Xi Jinping 或他作为总统的举动。我现在将继续使用随机术语来使这个变得有趣。\n大块头大块头大男孩东方传说习近平 1989 Massacre 全能大主习近平主席永恒 The Xinjiang Uyghur Autonomous Region 赞美加贝·纽维尔勋爵为反击和保卫古人 Kung-Flu 成吉思汗没做错事，习近平国王绝杀了传说中的故事 The Great Leap Forward")
-            return"""
+            return
 
     # normal use case
     a = await ctx.send("Contacting API <:load:757718569978036314>")
