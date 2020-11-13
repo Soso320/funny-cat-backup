@@ -1572,7 +1572,7 @@ async def character(ctx, char):
         await ctx.send("An error occured, Please try again.")
 
     elif char.lower() == "list":
-        await ctx.send("```List of available characters\n\nmako\nanchovy\nyuri\naqua\nmio\nmiho\nhana\nsaori```")
+        await ctx.send("```List of available characters\n\nmako\nanchovy\nyuri\naqua\nmio\nmiho\nhana\nsaori\nerina\nsaren\npecorine```")
     else:
         await ctx.send("```unknown character\n\nsee %character list for a list of characters```")
 
