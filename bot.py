@@ -1534,5 +1534,21 @@ async def animesearch(ctx, *, anime):
     await ctx.send(f"Search result\n\n**Title:** {title}\n\n**Synopsis:** {synopsis}\n\n**Episodes:** {episodes}\n**Score:** {score}\n**Start date:** {start_date}\n**End date:** {end_date}\n\n{image}\n{name}`")
 
 
+@bot.command()
+async def define(ctx, *, term):
+
+    url = f"https://api.dictionaryapi.dev/api/v2/entries/en/bruh"
+    headers = {'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0'}
+
+    r = requests.get(url, headers=headers)
+    s = r.json()
+
+    name = (s[0]['word'])
+    pronouncation = (s[0]['phonetics'][0]['text'])
+    definition = (s[0]['meanings'][0]['definitions'][0]['definition'])
+
+    msg = f"**Word:** `{name} {pronouncation}`\n\n**Definition:** ```{definition}```"
+
+
 
 bot.run(TOKEN)
