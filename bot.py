@@ -1569,7 +1569,7 @@ async def character(ctx, char):
         await ctx.send(charlink("satania"))
     elif char.lower() == "mankanshoku":
         await ctx.send(charlink("mankanshoku"))
-        
+
     elif char.lower() in "saren":
         await ctx.send("An error occured, Please try again.")
     elif char.lower() in "pecorine":
@@ -1579,6 +1579,11 @@ async def character(ctx, char):
         await ctx.send("```List of available characters\n\nmako\nanchovy\nyuri\naqua\nmio\nmiho\nhana\nsaori\nerina\nsaren\npecorine\nsatania\nmankanshoku```")
     else:
         await ctx.send("```unknown character\n\nsee %character list for a list of characters```")
+
+
+@bot.command()
+async def ping(ctx):
+    await ctx.send(f'My ping is {bot.latency}!')
 
 
 
